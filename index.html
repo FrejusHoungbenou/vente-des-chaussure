@@ -1,0 +1,91 @@
+
+  <!doctype html>
+  <html lang="en">
+ <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+      <!-- Bootstrap CSS -->
+      <link href="boot/css/bootstrap.min.css" rel="stylesheet" >
+     <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>  
+      <link rel="stylesheet" type="text/css" href="chaus.css">
+      <link href="css/fontawesome.css" rel="stylesheet" >   
+      <title>vente de chaussures</title>
+</head>
+
+
+      <body>
+
+		<div class="D1">
+
+			<nav class="header mt-3">
+				<ul class="links nav">
+						<li class="nav-item h5"><a href="#" class="lien nav-link" >Sneakers</a></li>
+						<li class="nav-item h5"><a href="#" class="lien nav-link">Collection</a></li>
+						<li class="nav-item h5"><a href="#" class="lien nav-link">Men</a></li>
+						<li class="nav-item h5"><a href="#" class="lien nav-link ">Women</a></li>
+						<li class="nav-item h5"><a href="#" class="lien nav-link">About</a></li>
+						<li class="nav-item h5"><a href="#" class="lien nav-link">Contact</a></li>
+						<li class="nav-item h5"><a href="http://facebook.com" class="nav-link">Facebook</a></li>
+                        <li class="nav-item">  <a href="#" class="profile nav-link"><img src="image/photo.png" class="profil"></a></li>
+              
+				</ul>
+			</nav>
+	 </div><br><br>
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-sm-6  col-12 image">
+                 <img src="image/im2.jpg" alt="" >
+                 <div class="images">
+                    <img src="image/im1.jpg" alt="">
+                    <img src="image/im3.jpg" alt="">
+                    <img src="image/im4.jpg" alt="">
+                    <img src="image/im5.jpg" alt="">
+                 </div>
+             </div>
+             <div class="col-sm-6  col-6 texte">
+
+                <p class=" text-primary h5 font-weight-border">SNEAKER COMPANY</p> 
+                <p class=" text-dark h3">Fall Limited Edition <br>Sneakers</p> <br>
+                <p class=" text-secondary text-justify">There low-profil sneakers are your perfect casual wear <br>
+                   companion. Featuring a durable rubber outer sole, they will<br>
+                   withstand everythingthe weathercan offer</p> 
+               <p class="h4">$250.00 <span class="text-primary bg-light p-2 rounded">50%</span></p>
+               <p class="text-secondary">$500.00</p>
+               <div class="fin">
+                    <p class=" h3 rounded bg-light p-1 spa w-15 btn " >
+                          <span class="text-primary h2" id="id1">+</span>
+                          <span id="id2" class="p-4 h2"> 0 </span>
+                          <span class="text-primary h2" id="id3">-</span>
+                   </p>
+                    <a href="#" class="add"><div id="addd" class="bg-primary text-light p-3 w-30 h3 h-20 text-center m-3 rounded btn">Add to cart </div></a><br><br>
+               </div>
+
+            
+         </div>
+     </div>
+
+
+        <script>
+            let plus=document.getElementById('id1');
+            let moins=document.getElementById('id3');
+            plus.addEventListener('click',function ()
+            {
+                document.getElementById('id2').innerHTML++;
+            })
+
+            moins.addEventListener('click', function()
+            {
+                document.getElementById('id2').innerHTML--;
+            }
+            
+            )
+
+        </script>
+         
+        
+
+             
+      </body>
+  </html>

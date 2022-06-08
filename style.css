@@ -1,0 +1,98 @@
+ body
+ {
+     padding: auto;
+ }
+
+
+a
+{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.profil
+{
+    margin-right: 5%;
+}
+ /*
+ ul
+ {
+     display: flex;
+     margin: auto;
+   
+ }
+ nav ul li a
+ {
+     text-decoration: none;
+     color:gray;
+     font-size: 120%;
+ }
+ nav ul li a :hover
+ {
+     text-decoration: none;
+    color: blue;
+     font-size: 100%;
+ }
+ nav ul li a .lien
+ {
+     text-decoration: none;
+     color:gray;
+     font-size: 100%;
+ }
+ ul li
+ {
+     list-style: none;
+     margin: 1%;
+ }
+ */
+ .profil
+ {
+     max-width: 7vh;
+     max-height: 7vh;
+     width: 7vh;
+     height: 7vh;
+     border-radius: 100%;
+     margin-left: 60%;
+ }
+ .profile
+ {
+     margin-left: 45%;
+ }
+ nav
+ {
+     border-bottom: 1px solid gray;
+     margin: 2%;
+ }
+ /*-------------------------------------------------------------------------------------------*/
+
+ .image img
+ {
+     border-radius: 2%;
+     max-width: 50vh;
+     max-height: 50vh;
+     width: 45vh;
+     height: 45vh;
+     margin: 2%;
+
+ }
+ .image .images 
+ {
+     display:flex;
+ }
+ .image .images img
+ {
+    margin: 2%;
+    max-width: 10vh;
+    max-height: 10vh;
+    border-radius: 15px;
+    border: 1px solid blue;
+    opacity: 1px;
+ }
+ #id1 , #id3
+ {
+     
+ }
+ .fin .spa span
+ {
+     cursor: pointer;
+ }
